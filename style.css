@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #141416;
+}
+
+.container {
+    width: 420px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    color:white;
+    padding: 30px 25px 40px 25px;
+}
+
+.container h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
+
+.container h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 32px;
+    color: #B1B5C3;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    margin-top: 12px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #777E90;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 12px 16px;
+    color: #777E90;
+}
+
+.input-box input::placeholder {
+    color: #777E90;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #777E90;
+}
+
+.container .forgot {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: end;
+    margin-top: 16px;
+}
+.forgot a {
+    color: #3772FF;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.container .button {
+    width: 100%;
+    height: 48px;
+    background: #3772FF;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    margin-top: 32px;
+    padding: 12px 16px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 500;
+}
